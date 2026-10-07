@@ -1,7 +1,5 @@
 # Flask on Docker
 
-![Build Status](https://github.com/YOUR_GITHUB_USERNAME/flask-on-docker/actions/workflows/build.yml/badge.svg)
-
 ## Overview
 
 This repo contains a Flask web app that lets users upload images and access those images through the browser. It also serves static files and includes separate development and production environments. Docker Compose is used to run the application alongside PostgreSQL, with Gunicorn and Nginx added for the production setup.
@@ -9,8 +7,6 @@ This repo contains a Flask web app that lets users upload images and access thos
 ## Demo
 
 ![Application Demo](flask-docker.gif)
-
-The demo shows the application running, uploading an image through the `/upload` route, and viewing the uploaded image through the `/media/` route.
 
 ## Build Instructions
 
@@ -50,10 +46,6 @@ To stop the development containers:
 docker compose down
 ```
 
-```bash
-docker compose down
-```
-
 ### Production
 
 Build and start the production services:
@@ -75,12 +67,6 @@ docker compose -f docker-compose.prod.yml down
 ```
 
 ## Using the Application
-
-The root route returns a simple JSON response at:
-
-```text
-/
-```
 
 Static files are available at:
 

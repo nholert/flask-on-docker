@@ -1,4 +1,4 @@
-# Flask on Docker
+# Flask on Docker ![Build Status](https://github.com/nholert/flask-on-docker/actions/workflows/build.yml/badge.svg)
 
 ## Overview
 
